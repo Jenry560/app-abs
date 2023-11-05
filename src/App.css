@@ -220,6 +220,14 @@ table tbody tr td{
     }
 }
 
+@media (max-width: 700px) {
+  .img{
+    width: 140px;
+    height: 70px;
+    padding-left: 0;
+  }
+}
+
 @keyframes move {
   0% {
      transform: translateY(-10px);
