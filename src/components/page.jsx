@@ -9,7 +9,7 @@ import Boton from "./boton"
 
 
 export default function Page(){
-    const [siguiente,setsiguiente] = useState(10)
+    const [siguiente,setsiguiente] = useState(1)
     const [start,setStart]= useState(true)
     const [status,setStatus]= useState(false)
 
