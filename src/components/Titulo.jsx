@@ -25,7 +25,7 @@ function Titulo ({setStart}){
     return(
         <>
         <div>
-        <h2 className="abs">Rut(Intensa)</h2>
+        <h2 className="abs">Rutina de absdominales de 5min (Intensa)</h2>
         {user  ? ( <button className="boton-x" onClick={comenzar}>Comienza {user.nombre}</button>):(
              <form onSubmit={handleSubmit(onSubmit)} className="form">
              <input type="text" placeholder="Escriba su nombre" {...register('nombre',{ required: true })}/>
